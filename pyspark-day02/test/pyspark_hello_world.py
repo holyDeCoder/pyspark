@@ -14,9 +14,6 @@ if __name__ == '__main__':
     sc = SparkContext(conf=spark_conf)
     print(sc)
 
-
-
-
     sc.stop()
 
 
